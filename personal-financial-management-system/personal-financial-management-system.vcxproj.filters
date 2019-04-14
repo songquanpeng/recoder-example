@@ -150,8 +150,6 @@
     <None Include="save.json">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="README.md">
-      <Filter>Resource Files</Filter>
-    </None>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
