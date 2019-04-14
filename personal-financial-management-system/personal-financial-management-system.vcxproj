@@ -113,20 +113,73 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="file.cpp" />
+    <ClCompile Include="HelpDialog.cpp" />
     <ClCompile Include="loginui.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainwidget.cpp" />
+    <ClCompile Include="record.cpp" />
+    <ClCompile Include="RecordFile.cpp" />
+    <ClCompile Include="SettingDialog.cpp" />
+    <ClCompile Include="showrecordwidget.cpp" />
+    <ClCompile Include="ShowReport.cpp" />
+    <ClCompile Include="SystemFile.cpp" />
+    <ClCompile Include="user.cpp" />
+    <ClCompile Include="UserFile.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="loginui.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="Help.ui" />
     <QtUic Include="loginui.ui" />
+    <QtUic Include="mainwidget.ui" />
+    <QtUic Include="SettingDialog.ui" />
+    <QtUic Include="ShowReport.ui" />
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="images.qrc" />
+    <CustomBuild Include="images2.qrc" />
     <QtRcc Include="loginui.qrc" />
+    <QtRcc Include="recources.qrc" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="personal-financial-management-system.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="file.h" />
+    <ClInclude Include="record.h" />
+    <ClInclude Include="RecordFile.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SystemFile.h" />
+    <ClInclude Include="user.h" />
+    <ClInclude Include="UserFile.h" />
+    <QtMoc Include="ShowReport.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+    </QtMoc>
+    <QtMoc Include="showrecordwidget.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+    </QtMoc>
+    <QtMoc Include="SettingDialog.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+    </QtMoc>
+    <QtMoc Include="mainwidget.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+    </QtMoc>
+    <QtMoc Include="HelpDialog.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="root.json" />
+    <None Include="save.json" />
+    <None Include="style.qss" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

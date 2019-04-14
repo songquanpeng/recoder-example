@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>C:/Users/song/Desktop/06042/images/application-exit.png</file>
+        <file>C:/Users/song/Desktop/06042/images/configure.png</file>
+        <file>C:/Users/song/Desktop/06042/images/document-edit.png</file>
+        <file>C:/Users/song/Desktop/06042/images/document-export.png</file>
+        <file>C:/Users/song/Desktop/06042/images/document-import.png</file>
+        <file>C:/Users/song/Desktop/06042/images/document-open.png</file>
+        <file>C:/Users/song/Desktop/06042/images/document-revert.png</file>
+        <file>C:/Users/song/Desktop/06042/images/document-save.png</file>
+        <file>C:/Users/song/Desktop/06042/images/document-share.png</file>
+        <file>C:/Users/song/Desktop/06042/images/edit-guides.png</file>
+        <file>C:/Users/song/Desktop/06042/images/edit-image-face-recognize.png</file>
+        <file>C:/Users/song/Desktop/06042/images/flag.png</file>
+        <file>C:/Users/song/Desktop/06042/images/go-down.png</file>
+        <file>C:/Users/song/Desktop/06042/images/go-up.png</file>
+        <file>C:/Users/song/Desktop/06042/images/help-about.png</file>
+        <file>C:/Users/song/Desktop/06042/images/list-add.png</file>
+        <file>C:/Users/song/Desktop/06042/images/list-remove.png</file>
+        <file>C:/Users/song/Desktop/06042/images/minecraft.ico</file>
+        <file>C:/Users/song/Desktop/06042/images/network-connect.png</file>
+        <file>C:/Users/song/Desktop/06042/images/network-disconnect.png</file>
+        <file>C:/Users/song/Desktop/06042/images/text-field.png</file>
+        <file>C:/Users/song/Desktop/06042/images/tools-report-bug.png</file>
+        <file>C:/Users/song/Desktop/06042/images/view-list-text.png</file>
+    </qresource>
+</RCC>
